@@ -32,6 +32,7 @@ public class Main {
     }
 
     public static void printTicketDetails(Ticket ticket) {
+
         System.out.println(ticket.getPnr());
     }
 }

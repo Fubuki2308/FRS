@@ -15,18 +15,22 @@ public class Flight {
     }
 
     public String getFlightNo() {
+
         return flightNo;
     }
 
     public void setFlightNo(String flightNo) {
+
         this.flightNo = flightNo;
     }
 
     public String getAirlineName() {
+
         return airlineName;
     }
 
     public void setAirlineName(String airlineName) {
+
         this.airlineName = airlineName;
     }
 
