@@ -27,13 +27,13 @@ public class Main {
                 "1",678.90f,false,null,null,special_Service);
         //IMP:- Date Time Should be in YYYY-MM-DD"T"HH:MM:SS Format when input in String to avoid error in code.
 
-        printTicketDetails(touristT);
-        printTicketDetails(regularT);
+        printTicketDetails(touristT);//passing Tourist Ticket Reference variable
+        printTicketDetails(regularT);//passing Regular Ticket Reference variable
     }
 
     public static void printTicketDetails(Ticket ticket) {
 
-        System.out.println(ticket.getPnr());
+        System.out.println(ticket.getPnr());//Printing the pnr
     }
 }
 
